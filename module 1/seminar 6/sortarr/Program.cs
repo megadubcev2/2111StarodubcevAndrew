@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace sortarr
 {
@@ -16,7 +16,7 @@ namespace sortarr
         public static int CountDigits(int a)
         {
             int quantity = 0;
-            while (a > 0)
+            while(a > 0)
             {
                 quantity++;
                 a /= 10;
@@ -28,7 +28,7 @@ namespace sortarr
             int sum = 0;
             while (a > 0)
             {
-                sum += a % 10;
+                sum+= a%10;
                 a /= 10;
             }
             return sum;
