@@ -69,7 +69,7 @@ namespace sortarr
             Console.WriteLine();
             Array.Sort(mas, SortQuantityDigits);
             Array.ForEach(mas, el => Console.Write(el + " "));
-            Console.WriteLine(  );
+            Console.WriteLine();
             Array.Sort(mas, SortSumDigits);
             Array.ForEach(mas, el => Console.Write(el + " "));
             Console.WriteLine();
