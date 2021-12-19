@@ -6,6 +6,7 @@ namespace maxcifra
     {
         static void Main(string[] args)
         {
+
             string strChislo = Console.ReadLine();
             if (!int.TryParse(strChislo, out int chislo))
             {
